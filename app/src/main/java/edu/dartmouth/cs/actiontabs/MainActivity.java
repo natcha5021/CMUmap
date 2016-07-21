@@ -35,8 +35,7 @@ public class MainActivity extends Activity {
         fragments = new ArrayList<Fragment>();
         fragments.add(new FindFragment());
         fragments.add(new MapFragment());
-//        fragments.add(new MeetFragment());
-//        fragments.add(new PartyFragment());
+
 
         // use FragmentPagerAdapter to bind the slidingTabLayout (tabs with different titles)
         // and ViewPager (different pages of fragment) together.
